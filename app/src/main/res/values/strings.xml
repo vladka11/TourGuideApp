@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Tour Guide Žilina</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- MUST SEE PLACES -->
+    <string name="budatin">Budatín Castle</string>
+    <string name="budatinDesc">The Budatín Castle is a castle in north-western Slovakia, near the city of Žilina, where the Kysuca river flows into the Váh river.</string>
+
+    <string name = "kostol">Holy Trinity Cathedral</string>
+    <string name = "kostolDesc">The Church of the Holy Trinity, since February 2008 Holy Trinity Cathedral is a Roman Catholic church in Žilina, Slovakia.</string>
+
+
+    <!-- EVENTS -->
+    <string name="event1">Medieval Day</string>
+    <string name="event1Desc"> The Medieval Day is a new event among cultural events taking place in Žilina. The main idea is to change the current Marianske Square to a medieval village square for one August day. Within this event, there are presentations of groups of historical fencing, promoters of historical crafts - smiths, bakers and other professions present their art on the spot. </string>
+
+    <string name="event2">Žilina St. John"s Night</string>
+    <string name="event2Desc">The international street theatre festival (established in 2005). Its main idea is to return the theatre back on the street, free it from stone premises of stable scenes and transfer it right among the people to public outdoor spaces, under the sky and theatre marquees. It helps to transform traditional productions created in “stone” theatres in order to be played in the form of street presentation. </string>
+
+
+    <!--FOOOOD-->
+    <string name="food1">Vulcano</string>
+    <string name="food2">Diana Hunting Hotel</string>
+    <string name="food3">Reštaurácia NAROHU</string>
+    <string name="food4">MANZO steak And burger</string>
+
+    <string name="food1Desc">http://www.vulcano.sk</string>
+    <string name="food2Desc">http://polovnickyhotel.sk</string>
+    <string name="food3Desc">http://www.narohu.sk</string>
+    <string name="food4Desc">http://www.manzo.sk</string>
+
+
+    <!--Bars-->
+    <string name="bar1">Smer Music Bar</string>
+    <string name="bar2">Guinness Pub</string>
+    <string name="bar3">Golem Pub</string>
+    <string name="bar4">Zeppelin Pub</string>
+
+    <string name="barDesc">http://www.SmerMusicBar.sk</string>
+    <string name="bar2Desc">http://www.GuinnessZilina.sk</string>
+    <string name="bar3Desc">http://www.GolemPub.sk</string>
+    <string name="bar4Desc">http://www.Zeppelinpub.sk</string>
+
+
+</resources>
