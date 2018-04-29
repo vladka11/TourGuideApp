@@ -14,7 +14,7 @@ public class BarsActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.container, new AttractionFragment())
+                .replace(R.id.container, new BarsFragment())
                 .commit();
     }
 }

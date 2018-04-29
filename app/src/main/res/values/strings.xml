@@ -1,8 +1,12 @@
 <resources>
     <string name="app_name">Tour Guide Žilina</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name= "hello_blank_fragment">Hello blank fragment</string>
+    <string name= "mustsee_string">Must See</string>
+    <string name= "bars_string">Bars</string>
+    <string name= "restaurant_string">Restaraunt</string>
+    <string name= "events_string">Events</string>
+
 
 
     <!-- MUST SEE PLACES -->

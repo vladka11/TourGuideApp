@@ -1,5 +1,5 @@
 package com.example.android.tourguideapp;
-
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -9,10 +9,11 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class FragmentPageAdapter extends FragmentPagerAdapter {
+    Context mContext;
 
-
-    public FragmentPageAdapter(FragmentManager fm) {
+    public FragmentPageAdapter(FragmentManager fm, Context context) {
         super(fm);
+        mContext = context;
     }
 
     @Override
@@ -38,16 +39,16 @@ public class FragmentPageAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return "Must see";
+                return mContext.getResources().getString(R.string.mustsee_string);
             case 1:
-                return "Events";
+                return mContext.getResources().getString(R.string.events_string);
             case 2:
-                return "Food";
+                return mContext.getResources().getString(R.string.restaurant_string);
             case 3:
-                return "Bars";
+                return mContext.getResources().getString(R.string.bars_string);
 
             default:
-                return null;
+                throw new IllegalArgumentException("Position "+position+" not supported!");
         }
     }
 }
